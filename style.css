@@ -1,0 +1,85 @@
+body{
+    font-family: monospace;
+    height: 100vh;
+
+}
+
+#header{
+    width: 100%;
+    background-color: rgb(1, 63, 82);
+    color: cornsilk;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+    font-size: 17px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grupo{
+    margin-bottom: 2rem;
+    width: 30%;
+}
+
+input{
+    width: 98%;
+    border: none;
+    background-color: #EEE;
+    border-radius: 20px;
+    outline: none;
+    padding: 0.5rem;
+}
+
+#adicionar-nota{
+    width: 10%;
+    background-color: darkolivegreen;
+    color: gainsboro;
+    font-family: monospace;
+    padding: 0.7rem;
+    margin-bottom: 20px;
+}
+
+#nota{
+    height: 150px;
+}
+
+textarea{
+    width: 100%;
+    border: none;
+    background-color: #EEE;
+    border-radius: 10px;
+    outline: none;
+}
+
+#formulario{
+    margin-top: 4rem;
+    margin-bottom: 20px;
+}
+
